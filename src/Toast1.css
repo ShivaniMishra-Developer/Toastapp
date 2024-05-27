@@ -1,0 +1,22 @@
+.toast1 {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    color: white;
+    z-index: 9999;
+    border-radius: 4px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    max-width: 300px; /* Limit the width of the toast */
+    font-size: 14px; /* Set the font size */
+    line-height: 1.5; /* Set the line height */
+    z-index: 10000;
+}
+
+.toast-success {
+    background-color: green;
+}
+
+.toast-danger {
+    background-color: red;
+}

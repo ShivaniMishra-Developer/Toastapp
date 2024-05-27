@@ -3,6 +3,7 @@ import React from 'react';
 import toastIcon from './icon.png'; 
 
 import './Toast.css'
+import Toast1 from './Toast1';
 interface ToastProps {
     message: string;
     onConfirm?: () => void;
